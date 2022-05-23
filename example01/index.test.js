@@ -5,9 +5,9 @@ describe('Probando sumas con la función add', () => {
     expect(add(2, 2))
       .toBe(4)
   })
-  
+
   it('2 + -2 es igual a 0', () => {
-    expect(add(2,-2))
+    expect(add(2, -2))
       .toBe(0)
   })
 
@@ -45,5 +45,4 @@ describe('Probando sumas con la función add', () => {
     expect(add(2, null))
       .toBe(2)
   })
-
 })
