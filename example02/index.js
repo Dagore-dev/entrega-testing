@@ -1,3 +1,9 @@
+/**
+ * Devuelve un objecto que contiene un resumen de las características del contenido del Array.
+ * Dichas características son la suma, multiplicación, cantidad de números, media, cadena más larga y operadores lógicos AND y OR.
+ * @param {Any[]} array
+ * @returns {Object}
+ */
 function arraySummary (array) {
   const initialValue = {
     sum: 0,

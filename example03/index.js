@@ -1,3 +1,8 @@
+/**
+ * Recibe un número y devuelve el valor de la sucesión de Fibonacci en esa posición.
+ * @param {Number} number
+ * @returns {Number}
+ */
 function fibonacci (number) {
   number = parseInt(number)
 
